@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Boneless Monterrey</title>
+  <link href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">Boneless Monterrey</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Nuestros boneless</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="hero">
+    <div class="container">
+      <h1 class="hero-heading">Los mejores boneless de Monterrey</h1>
+      <p class="hero-paragraph">¡Pruébalos y te enamorarás!</p>
+      <a class="button" href="#">Conoce nuestros boneless</a>
+    </div>
+  </div>
+
+  <section class="description">
+    <div class="container">
+      <h2 class="section-heading">Sobre nosotros</h2>
+      <p class="section-paragraph">Somos un restaurante especializado en boneless, preparados con los mejores ingredientes y con un toque especial de nuestra casa.</p>
+      <p class="section-paragraph">Tenemos una amplia variedad de sabores para que elijas el que más te guste, y también ofrecemos combos y promociones para que disfrutes de nuestros boneless al mejor precio.</p>
+    </div>
+  </section>
+
+  <section class="gallery">
+    <div class="container">
+      <h2 class="section-heading">Nuestros boneless</h2>
+      <div class="gallery-items">
+        <img src="images/boneless-cheese.jpg" alt="Boneless con queso">
+        <img src="images/boneless-buffalo.jpg" alt="Boneless buffalo">
+        <img src="images/boneless-ranch.jpg" alt="Boneless ranch">
+        <img src="images/boneless-al-chile.jpg" alt="Boneless al chile">
+      </div>
+    </div>
+  </section>
+
+  <section class="contact">
+    <div class="container">
+      <h2 class="section-heading">Contacto</h2>
+      <form action="#">
+        <div class="form-group">
+          <label for="name">Nombre</label>
+          <input type="text" class="form-control" id="name" placeholder="Tu nombre">
+        </div>
+        <div class="form-group">
+          <label for="email">Correo electrónico</label>
+          <input type="email" class="form-control" id="email" placeholder="Tu correo electrónico">
+        </div>
+        <div class="form-group">
+          <label for="message">Mensaje</label>
+          <textarea class="form-control" id="message" rows="3" placeholder="Tu mensaje"></textarea>
+        </div>
+        <button type="submit" class="button">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+</body>
+</html
